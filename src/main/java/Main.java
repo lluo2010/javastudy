@@ -5,6 +5,8 @@ import com.google.common.cache.CacheLoader;
 
 import javax.annotation.PostConstruct;
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
@@ -42,9 +44,6 @@ public class Main {
         }else{
             System.out.println("it's not null");
         }
-
-
-
     }
 
 
